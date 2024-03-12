@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: cyan;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333333;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.section {
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  color: #333333;
+}
+
+.section p {
+  color: #666666;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rosquinhas Deliciosas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Rosquinhas da Vovó</h1>
+  </header>
+
+  <div class="container">
+    <section class="section">
+      <h2>aqui esta algumas informaçoes sobre nossa empresa</h2>
+      <p>Somos uma empresa apaixonada por rosquinhas! Produzimos as melhores rosquinhas fresquinhas e saborosas todos os
+        dias.</p>
+    </section>
+    <section class="section">
+      <img src="images.jfif">
+      <h2>Nossa Receita</h2>
+      <p>Aqui está a nossa deliciosa receita de rosquinhas:</p>
+
+      <ul>
+        <li>250g de farinha de trigo</li>
+        <li>100g de açúcar</li>
+        <li>1 ovo</li>
+        <li>100ml de leite</li>
+        <li>50g de manteiga</li>
+        <li>1 colher de chá de fermento em pó</li>
+        <li>1 pitada de sal</li>
+      </ul>
+      <p>Misture todos os ingredientes, amasse bem e deixe descansar por 30 minutos. Modele as rosquinhas e leve para
+        assar em forno pré-aquecido a 180°C por 15-20 minutos.</p>
+    </section>
+
+    <section class="section">
+      <h2>Contato</h2>
+      <p>Entre em contato conosco para fazer pedidos ou tirar dúvidas sobre nossos produtos.</p>
+      <h3>11 934829481</h3>
+    </section>
+  </div>
+
+  <body>
+
+</html>
